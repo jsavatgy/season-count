@@ -58,7 +58,7 @@ createEntry str =
     date = drop 3 str
 
 readSeasons = do
-  content <- readFile "/home/jhii/sorsat/Haskell/seasons/seasons-utc-list.txt"
+  content <- readFile "seasons-utc-list.txt"
   let fileLines = lines content
       entries = map createEntry fileLines
       sortedEntries = sortBy earlierFst entries
