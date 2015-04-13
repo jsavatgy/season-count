@@ -1,0 +1,12 @@
+#!/bin/bash
+
+fileprefix="guide" 
+echo "<meta charset=\"utf-8\">" >$fileprefix.html
+
+cat making-of.md > $fileprefix.md
+
+
+markdown $fileprefix.md >>$fileprefix.html
+firefox $fileprefix.html
+rm $fileprefix.html
+
