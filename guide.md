@@ -1,9 +1,9 @@
-# Seasons-count
+# Season-count
 
 Our goal: to show a calendar with day-count from and to nearest equinox or solstice.
 
 ```
- $ ./seasons-count 
+ $ ./season-count 
 + 23 d 14 h 37 min VE
 − 69 d 3 h 15 min SS
 ```
@@ -93,9 +93,9 @@ $ runhaskell parse-list-to-tuples.hs
 ...
 ```
 
-We copy it into the end of file `seasons-count.hs`.
+We copy it into the end of file `season-count.hs`.
 
-## seasons-count
+## season-count
 
 Get current time in POSIXTime
 
