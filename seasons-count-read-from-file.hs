@@ -3,7 +3,6 @@ import Data.Time.Clock.POSIX
 import Data.List
 import Data.Maybe
 import System.Locale (defaultTimeLocale)
-import Text.Printf (printf)
 
 data Entry = Entry {
   abbrev :: String, 
