@@ -3,7 +3,7 @@ Some equinox and solstice countdown calculations
 
 ![season-count-in-terminal.png](season-count-in-terminal.png)
 
-Compile `season-count`:
+Compile `season-count.hs`:
 ```
 $ ghc season-count.hs
 ```
